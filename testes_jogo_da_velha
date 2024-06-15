@@ -1,0 +1,9 @@
+matriz_grade = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+contador = 0
+
+
+
+primeira_jogada = int(input('Digite 0, 1, ou 2 correspodente a linha em que você fará a jogada: '))
+primeira_jogada1 = int(input('Digite 0, 1 ou 2 corresponde a coluna em que você fará a jogada: '))
+if primeira_jogada == 0 and primeira_jogada1 == 0:
+    print()
